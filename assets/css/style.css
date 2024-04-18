@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    }
+
+.header{
+    height: 6em;
+    padding: 2em;
+    font-size: 1em;
+    background-image: url("../img/Fondoresize.jpg");
+    background-size: cover;
+    background-position: center;
+    }
+
+.header h1{
+    margin: 0px;
+    /* font-size: 2em; */
+    }
+.header p {
+    font-weight: 400;
+    /* font-size: 1em; */
+    /* width: 100%;
+    text-align: center; */
+}
+
+.products {
+    width: 100%;
+    margin: auto;
+    background-color: #FDF7FA;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 80%;
+    border: solid 1px #ddd;
+}
+
+.perfum {
+    font-size: 1.25em;
+    font-weight: 900;
+}
+
+.details {
+    font-style:oblique;
+}
+
+.price {
+    font-weight:600;
+}
+
+.footer {
+    height: 5em;
+    background-color: #A8DCD9; 
+}
+
+.footer p {
+    line-height: 5em;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    }
